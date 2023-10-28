@@ -573,7 +573,7 @@ header .member-actions {
     left: 50%;
     transform: translateX(-50%);
 }
-.events .leftcol {
+ .events .leftcol {
     padding-right: 100px;
     border-right: solid 1px #e6e9ea;
 }
@@ -611,7 +611,7 @@ header .member-actions {
     position: relative;
     overflow: hidden;
 }
-.blog .blog-img-wrap .overlay {
+ .blog .blog-img-wrap .overlay {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -624,7 +624,7 @@ header .member-actions {
     filter: alpha(opacity=0);
     opacity: 0;
 }
-.blog .blog-img-wrap i {
+ .blog .blog-img-wrap i {
     color: #fff;
     font-size: 20px;
     position: absolute;
@@ -639,7 +639,7 @@ header .member-actions {
     -o-transform: scale(1.1);
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
-}
+}  
 .blog .blog-img-wrap:hover .overlay, .blog .blog-img-wrap:focus .overlay {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
     filter: alpha(opacity=1);
@@ -657,8 +657,10 @@ header .member-actions {
     color: #3d4351;
 }
 #instagram img {
-    width: 100%}
-#eng-pics img {
+    width: 100%} */
+
+
+/* #eng-pics img {
     width: 100%;
     height: auto;
     -moz-transition: all 300ms ease-in-out;
@@ -724,8 +726,8 @@ header .member-actions {
     left: 34%;
     top: 75%;
     z-index: -1;
-}
-#video-bg {
+} */
+/* #video-bg {
     height: 300px;
 }
 #video-content {
@@ -744,7 +746,7 @@ header .member-actions {
 }
 #video-content p {
     color: #fff;
-}
+} */
 #map-canvas {
     background-image:url("../img/golf-guestRates.JPG") center center;
     opacity: 0.5;
@@ -774,26 +776,28 @@ header .member-actions {
     font-size: 230%;
     width: 230%;
     margin-left: -50%;
-    /* margin-top: -20px; */
+    margin-top: -20px;
 }
 
 #map-content p{
     font-size: 157%;
     width: 180%;
-    margin-left: -30%;
+    margin-left: -5%;
     padding-bottom: 2px;
+    margin-top:104%;
+    color: white;
 }
 #map-content h5{
-    font-size: 107%;
-    width: 580%;
-    margin-top: -20px;
+    font-size: 167%;
+    margin-top:20%;
+    /* width: 280%;
     margin-left: -20%;
-    padding-bottom: 100px;
+    padding-bottom: 100px; */
 }
 
 
 #map-content {
-    margin-top: 40px;
+    /* margin-top: 40px; */
     padding: 50px 60px;
     width:100%;
     
@@ -820,7 +824,7 @@ header .member-actions {
     pointer-events: auto;
 }
 .rsvp {
-    padding-bottom: 170px;
+    padding-bottom: 60px;
     margin-left: 2%;
     /* margin-top: -100%; */
 }
