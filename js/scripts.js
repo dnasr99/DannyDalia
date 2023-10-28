@@ -208,7 +208,7 @@ $(document).ready(function () {
 
 
     /********************** RSVP **********************/
-    $('#rsvp-form').on('submit', function (e) {
+    $('#gform').on('submit', function (e) {
         e.preventDefault();
         var data = $(this).serialize();
 
@@ -218,7 +218,7 @@ $(document).ready(function () {
             && MD5($('#invite_code').val()) !== '2ac7f43695eb0479d5846bb38eec59cc') {
             $('#alert-wrapper').html(alert_markup('danger', '<strong>Sorry!</strong> Your invite code is incorrect.'));
         } else {
-            $.post('https://script.google.com/macros/s/AKfycbyo0rEknln8LedEP3bkONsfOh776IR5lFidLhJFQ6jdvRiH4dKvHZmtoIybvnxpxYr2cA/exec', data)
+            $.post('https://script.google.com/macros/s/AKfycbyVCkHyrvyju3hGBdZXSk4owEB83wKQ-wctgQiK8OXZmGCR9Z3FPtBnnHLodRMO66bX/exec', data)
                 .done(function (data) {
                     console.log(data);
                     if (data.result === "error") {
