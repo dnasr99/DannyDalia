@@ -289,14 +289,13 @@
         margin: 50px 0 50px 0;
     }
 
-
 @media screen and (max-width: 480px) {
     .hero .hero-content {
         padding-top: 110%;
     }
     
     .hero .hero-content img {
-        width: 175px;
+        width: 95%;
     }
 
     .hero .btn {
