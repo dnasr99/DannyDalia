@@ -573,7 +573,8 @@ header .member-actions {
     left: 50%;
     transform: translateX(-50%);
 }
- .events .leftcol {
+
+/* .events .leftcol {
     padding-right: 100px;
     border-right: solid 1px #e6e9ea;
 }
@@ -658,7 +659,6 @@ header .member-actions {
 }
 #instagram img {
     width: 100%} */
-
 
 /* #eng-pics img {
     width: 100%;
@@ -777,6 +777,7 @@ header .member-actions {
     width: 230%;
     margin-left: -50%;
     margin-top: -20px;
+
 }
 
 #map-content p{
@@ -790,9 +791,6 @@ header .member-actions {
 #map-content h5{
     font-size: 167%;
     margin-top:20%;
-    /* width: 280%;
-    margin-left: -20%;
-    padding-bottom: 100px; */
 }
 
 
