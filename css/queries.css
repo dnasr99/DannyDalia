@@ -289,8 +289,6 @@
         margin: 50px 0 50px 0;
     }
 
-} */
-
 @media screen and (max-width: 480px) {
     .hero .hero-content {
         padding-top: 110%;
@@ -361,7 +359,8 @@
     }
 
     .rsvp {
-        padding-top: 20px;
+        /* padding-top: 20px; */
+        margin-top: 5px;
     }
 }
 }
