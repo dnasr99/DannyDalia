@@ -250,7 +250,7 @@
     footer .footer-links {
         margin: 120px 0 120px 0;
     }
-}
+ } 
 
 @media screen and (max-width: 640px) {
     .hero .hero-content {
@@ -289,9 +289,9 @@
         margin: 50px 0 50px 0;
     }
 
-} */
 
 @media screen and (max-width: 480px) {
+
     .hero .hero-content {
         padding-top: 110%;
     }
@@ -354,7 +354,7 @@
     }
 
 }
-
+    
 @media screen and (max-width: 320px) {
     .hero .hero-content {
         padding-top: 130%;
