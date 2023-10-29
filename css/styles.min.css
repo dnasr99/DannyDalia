@@ -574,6 +574,7 @@ header .member-actions {
     transform: translateX(-50%);
 }
  .events .leftcol {
+ .events .leftcol {
     padding-right: 100px;
     border-right: solid 1px #e6e9ea;
 }
@@ -657,6 +658,10 @@ header .member-actions {
     color: #3d4351;
 }
 #instagram img {
+    width: 100%} */
+
+
+/* #eng-pics img {
     width: 100%} */
 
 
@@ -784,8 +789,6 @@ header .member-actions {
     width: 200%;
     margin-left: -50px;
     padding-bottom: 2px;
-    margin-top:104%;
-    color: white;
 }
 #map-content h5{
     font-size: 17px;
