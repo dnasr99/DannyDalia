@@ -297,7 +297,7 @@
     }
     
     .hero .hero-content img {
-        width: 65%;
+        width: 95%;
     }
 
     .hero .btn {
@@ -361,6 +361,7 @@
     }
 
     .rsvp {
-        padding-top: 20px;
+        /* padding-top: 20px; */
+        margin-top: 5px;
     }
 }
