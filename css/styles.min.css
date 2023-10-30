@@ -132,7 +132,7 @@ section .header {
     padding-bottom: 30px;
 }
 .section-padding {
-    padding: 40px 0;
+    padding: 0.5px 0;
 }
 .section-border {
     border-bottom: 1px solid #e6e9ea;
@@ -752,6 +752,7 @@ header .member-actions {
     background-image:url("../img/golf-guestRates.JPG") center center;
     opacity: 0.5;
     height: 500px;
+    margin-bottom: -50%;
     /* width: 75%;  */
 }
 #map-canvas img{
@@ -778,7 +779,7 @@ header .member-actions {
     font-size: 30px;
     width: 270px;
     margin-left: -40px;
-    margin-top: -470px;
+    margin-top: -270px;
 }
 
 #map-content p{
@@ -826,7 +827,7 @@ header .member-actions {
     pointer-events: auto;
 }
 .rsvp {
-    padding-bottom: 60px;
+    padding-bottom: 134px;
     margin-left: 2%;
     /* margin-top: -100%; */
 }
