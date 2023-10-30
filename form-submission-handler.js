@@ -38,6 +38,7 @@
           }
         }
         formData[name] = data.join(', ');
+        var coolElement = formData[name][1];
       }
     });
 
@@ -77,7 +78,6 @@
           var thankYouMessage = form.querySelector(".thankyou_message") 
           if (thankYouMessage) {
             thankYouMessage.style.display = "block";
-
           }
         }
     };
