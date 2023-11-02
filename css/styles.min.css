@@ -757,7 +757,7 @@ header .member-actions {
 }
 #map-canvas img{
     width: 150%;
-    height:170%;
+    height:200%;
     opacity: 0.6;
 }
 #map-content-wrapper {
@@ -875,7 +875,8 @@ header .member-actions {
     left: 30px;
     transform: translateY(-50%);
 }
-.rsvp .gform .form-input-group i.fa-user, .rsvp .gform .form-input-group i.fa-users, .rsvp .gform .form-input-group i.fa-envelope, .rsvp .gform .form-input-group .fa-key {
+.rsvp .gform .form-input-group i.fa-user, .rsvp .gform .form-input-group i.fa-users, .rsvp .gform .form-input-group i.fa-envelope, .rsvp .gform .form-input-group .fa-key, 
+.rsvp .gform .form-input-group .fa-drumstick-bite, .rsvp .gform .form-input-group .fa-fish, .rsvp .gform .form-input-group .fa-carrot{
     font-size: 14px;
     position: absolute;
     top: 50%;
