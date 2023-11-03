@@ -82,10 +82,10 @@
         }
     };
     // url encode form data for sending as post data
-    var encoded = Object.keys(data).map(function(k) {
-        return encodeURIComponent(k) + "=" + encodeURIComponent(data[k]);
-    }).join('&');
-    xhr.send(encoded);
+    // var encoded = Object.keys(data).map(function(k) {
+    //     return encodeURIComponent(k) + "=" + encodeURIComponent(data[k]);
+    // }).join('&');
+    // xhr.send(encoded);
   }
   
   function loaded() {
