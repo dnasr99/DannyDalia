@@ -213,26 +213,19 @@ $(document).ready(function () {
         var data = $(this).serialize();
         $('#alert-wrapper').html(alert_markup('info', '<strong>Just a sec!</strong> We are saving your details.'));
 
-        if (($('#invite_code').val()) !== '089125') {
-            $('#alert-wrapper').html(alert_markup('danger', '<strong>Sorry!</strong> Your invite code is incorrect.'));
-        } else {
-            $.post('https://script.google.com/macros/s/AKfycbyVCkHyrvyju3hGBdZXSk4owEB83wKQ-wctgQiK8OXZmGCR9Z3FPtBnnHLodRMO66bX/exec', data)
-                .done(function (data) {
-                    console.log(data);
-                    if (data.result === "error") {
-                        $('#alert-wrapper').html(alert_markup('danger', data.message));
-                    } else {
-                        $('#alert-wrapper').html('');
-                        $('#rsvp-modal').modal('show');
-                    }
-                })
-                .fail(function (data) {
-                    console.log(data);
-                    $('#alert-wrapper').html(alert_markup('danger', '<strong>Sorry!</strong> There is some issue with the server. '));
-                });
-        }
-    });
+        $.post('https://script.google.com/macros/s/AKfycbyua1QN-Ix2JIrKyCG9MhjRL9Z1ATKfzvyDu5qlBE5IeyJaZbQ537x7oIQyU52JG8K9/exec', data)
+            .done(function (data) {
+                console.log(data);
+                $('#alert-wrapper').html('');
+                $('#rsvp-modal').modal('show');
+                
+            })
+            .fail(function (data) {
+                console.log(data);
+                $('#alert-wrapper').html(alert_markup('danger', '<strong>Sorry!</strong> There is some issue with the server. '));
+        });
 
+    });
 });
 
 /********************** Extras **********************/
